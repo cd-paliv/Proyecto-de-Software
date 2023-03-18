@@ -2,7 +2,9 @@
 
 Aplicación web creada para un club deportivo, desarrollada en Python con [Flask](https://flask.palletsprojects.com/en/2.2.x/) y Vue 3 con [ViteJS](https://vitejs.dev/) para la asignatura [Proyecto de Software 2022](https://www.info.unlp.edu.ar/wp-content/uploads/2022/03/Proyecto-de-Software.pdf) de la Facultad de Informática, UNLP.
 
-[![flaskyvuejs-removebg-preview.png](https://i.postimg.cc/g2bFsCGp/flaskyvuejs-removebg-preview.png)](https://postimg.cc/hfs5P3JZ)
+<p align="center">
+  <img src="https://i.postimg.cc/g2bFsCGp/flaskyvuejs-removebg-preview.png" alt="Imagen con logos de Flask y Vue3">
+</p>
 
 Se realizó una aplicación privada para el manejo interno de los datos presentes en la base de datos, y una aplicación pública para que utilicen tanto los empleados como los socios del club. Además, en base a la aplicación finalizada se implementó una PWA (Progressive Web Application) con la librería [vite-pwa-plugin](https://vite-pwa-org.netlify.app/).
 
