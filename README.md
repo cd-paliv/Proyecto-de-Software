@@ -1,31 +1,28 @@
 # Proyecto de Software 2022
 
-Aplicación web creada para un club deportivo, desarrollada en Python con [Flask](https://flask.palletsprojects.com/en/2.2.x/) y Vue 3 con [ViteJS](https://vitejs.dev/) para la asignatura [Proyecto de Software 2022](https://www.info.unlp.edu.ar/wp-content/uploads/2022/03/Proyecto-de-Software.pdf) de la Facultad de Informática, UNLP.
+Web application created for a sports club, developed in Python with [Flask](https://flask.palletsprojects.com/en/2.2.x/) and Vue 3 with [ViteJS](https://vitejs.dev/) for the subject [Proyecto de Software 2022](https://www.info.unlp.edu.ar/wp-content/uploads/2022/03/Proyecto-de-Software.pdf) of the Facultad de Informática, UNLP.  
 
 <p align="center">
-  <img src="https://i.postimg.cc/g2bFsCGp/flaskyvuejs-removebg-preview.png" alt="Imagen con logos de Flask y Vue3">
+   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/g2bFsCGp/flaskyvuejs-removebg-preview.png' border='0' alt='Image with Flask y Vue3 logos'/></a>
 </p>
+A private application was made for the internal management of the data present in the database, and a public app for both employees and club members to use. In addition, based on the finished application, a PWA (Progressive Web Application) was implemented with the [vite-pwa-plugin](https://vite-pwa-org.netlify.app/) library.  
 
-Se realizó una aplicación privada para el manejo interno de los datos presentes en la base de datos, y una aplicación pública para que utilicen tanto los empleados como los socios del club. Además, en base a la aplicación finalizada se implementó una PWA (Progressive Web Application) con la librería [vite-pwa-plugin](https://vite-pwa-org.netlify.app/).
-
-Para ver todas las librerías utilizadas en Python: `cd admin; poetry show;`  
-Para ver todas las librerías utilizadas en Vue: `cd portal; npm list;`
-
-## Ejecución local
-Instalaciones necesarias:  
+## Tech Stack
   - Python 3.10.x
   - Poetry
   - Flask
   - Vue 3
-  - PostgreSQL 13
+  - PostgreSQL 13  
+  
+To see all used libraries in Python: `cd admin; poetry show;`  
+To see all used libraries in Vue: `cd portal; npm list;`  
 
-La aplicación privada se encuentra dentro de la carpeta *admin*, la aplicación pública dentro de la carpeta *portal*. 
-Es necesario tener instaladas todas las librerías para la ejecución exitosa, por lo que dentro de la carpeta *admin* ejecutar el comando: `poetry shell; poetry install;`, y dentro de la carpeta *portal* ejecutar el comando `npm install`.
+## How to use?
+The private application is located inside the *admin* folder, the public application inside the *portal* folder.  
+For the public application to run, the private application must be running. It is advisable to have a terminal for each.  
 
-Para la ejecución de la aplicación pública, es necesario que se esté ejecutando la aplicación privada. Es recomendable tener una terminal para cada una.
+For private application execution: `cd admin; poetry shell; flask --debug run;`  
+For private application execution: `cd portal; npm run dev;`
 
-Para la ejecución de la aplicación privada: `cd admin; poetry shell; flask --debug run;`  
-Para la ejecución de la aplicación pública: `cd portal; npm run dev;`
-
-## Contacto
+## Contact
   - paulavaccaro1@gmail.com
