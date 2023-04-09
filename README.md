@@ -25,4 +25,5 @@ For private application execution: `cd admin; poetry shell; flask --debug run;`
 For private application execution: `cd portal; npm run dev;`
 
 ## Contact
-  - paulavaccaro1@gmail.com
+  - paulavaccaro1@gmail.com  
+  - facundomiglierini@gmail.com
